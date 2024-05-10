@@ -4,7 +4,9 @@ const Home = () => {
     
   return (
     <div className='min-h-screen'>
-      Home
+      Home  prhs
+      lksjdfljs
+      
     </div>
   )
 }
