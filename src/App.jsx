@@ -7,6 +7,7 @@ import About from './pages/About';
 import Footer from './components/Footer'
 import Signin from './pages/SignIn'
 import Signup from './pages/SignUp'
+import Form from './pages/Form'
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <Route path='/about' element={<About />} />
       <Route path='/signin' element={<Signin />} />
       <Route path='/signup' element={<Signup />} />
+      <Route path='/form' element={<Form />} />
       </Routes>
       <Footer></Footer>
     </BrowserRouter>
